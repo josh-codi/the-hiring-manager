@@ -25,11 +25,15 @@ const Login = () => {
                     <Form.Check type="checkbox" label="Agree to our terms and conditions" />
                 </Form.Group>
                 <Button variant="primary" type="submit" className="">
-                    Submit
+                    Login
                 </Button>
+
             </Form>
             
             </Col>
+            <a href="#root1"><Button variant="primary" type="submit" className="">
+                    <h1>signup</h1>
+                </Button></a>
             </div>
     )
 }
